@@ -1,0 +1,38 @@
+.tableContainer {
+  margin: 10px;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  border-radius: solid gray 2px;
+}
+
+.employee-table th{
+  background-color:blue;
+  color: white;
+  border-collapse: collapse;
+}
+
+.employee-table th,
+.employee-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: larger;
+}
+
+button {
+  /* margin-bottom: 20px; */
+  width: 150px;
+  font-size: 20px;
+  padding-bottom: 35px;
+}
+
+.button-div{
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-left: 30px;
+}

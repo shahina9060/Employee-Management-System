@@ -1,0 +1,106 @@
+/* DropdownSearch Component CSS */
+.dropdown-container {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.react-select__control {
+  height: 50px; /* Adjust height */
+  font-size: 16px; /* Adjust font size */
+  width: 100%; /* Adjust width, or set a specific size like 400px */
+}
+
+.react-select__control:hover {
+  border-color: #999;
+}
+
+.react-select__value-container {
+  padding: 10px; /* Adjust padding for more spacing */
+}
+
+.react-select__single-value {
+  font-size: 16px; /* Adjust font size of selected value */
+}
+
+.react-select__menu {
+  font-size: 16px; /* Adjust font size of dropdown items */
+}
+
+.react-select__option {
+  padding: 5px; /* Reduce padding */
+}
+
+.react-select__option--is-selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.react-select__option--is-focused {
+  background-color: #e9ecef;
+}
+
+.react-select__single-value {
+  color: #333;
+}
+
+/* search div */
+.search-div{
+  display: flex;
+  justify-content: space-between;
+
+}
+input[type="text"]{
+  margin-top: 1px;
+  height: 2.5vw;
+  width: 300px;
+}
+button{
+  height: 2vw;
+}
+
+ /* table css */
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .ListTable thead {
+    display: none;
+  }
+
+  .ListTable tbody tr {
+    display: block;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+  }
+
+  .ListTable tbody td {
+    display: block;
+    text-align: right;
+    padding: 10px;
+    position: relative;
+  }
+
+  .ListTable tbody td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .button-div {
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .dropdown-container {
+    max-width: 100%;
+    padding: 5px;
+  }
+}

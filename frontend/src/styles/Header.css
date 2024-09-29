@@ -1,0 +1,15 @@
+.container{
+    margin-top: 30px;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+.grid{
+    margin-left: 2%;
+    margin-right: 20%;
+    margin-bottom: 0;
+    width: 200px;
+    font-size: 35px;
+    padding: 50px;
+}
